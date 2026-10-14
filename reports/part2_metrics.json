@@ -1,0 +1,116 @@
+{
+  "comparisons": {
+    "all": [
+      {
+        "model": "mean_baseline",
+        "cv_rmse": 86245.62907203872,
+        "cv_mae": 59511.34450459001
+      },
+      {
+        "model": "random_forest",
+        "cv_rmse": 102012.27238557565,
+        "cv_mae": 76671.92239870463
+      },
+      {
+        "model": "gradient_boosting",
+        "cv_rmse": 104714.18694655644,
+        "cv_mae": 78570.67422268448
+      },
+      {
+        "model": "ridge",
+        "cv_rmse": 145909.2438111397,
+        "cv_mae": 122995.02372526145
+      }
+    ],
+    "united_kingdom": [
+      {
+        "model": "mean_baseline",
+        "cv_rmse": 84151.38458920864,
+        "cv_mae": 56404.426024708664
+      },
+      {
+        "model": "gradient_boosting",
+        "cv_rmse": 124437.53560141008,
+        "cv_mae": 96457.43367789155
+      },
+      {
+        "model": "random_forest",
+        "cv_rmse": 134988.92449710597,
+        "cv_mae": 101564.48586246044
+      },
+      {
+        "model": "ridge",
+        "cv_rmse": 162413.15055108673,
+        "cv_mae": 141079.69658965804
+      }
+    ]
+  },
+  "trained": [
+    {
+      "country": "all",
+      "rmse": 59360.1,
+      "mae": 52581.24,
+      "path": "D:\\DESKTOP\\New folder\\ai-workflow-capstone\\models\\sl-all-0_1.joblib"
+    },
+    {
+      "country": "eire",
+      "rmse": 2607.66,
+      "mae": 2028.23,
+      "path": "D:\\DESKTOP\\New folder\\ai-workflow-capstone\\models\\sl-eire-0_1.joblib"
+    },
+    {
+      "country": "france",
+      "rmse": 1054.79,
+      "mae": 788.47,
+      "path": "D:\\DESKTOP\\New folder\\ai-workflow-capstone\\models\\sl-france-0_1.joblib"
+    },
+    {
+      "country": "germany",
+      "rmse": 785.32,
+      "mae": 646.91,
+      "path": "D:\\DESKTOP\\New folder\\ai-workflow-capstone\\models\\sl-germany-0_1.joblib"
+    },
+    {
+      "country": "hong_kong",
+      "rmse": 592.91,
+      "mae": 338.3,
+      "path": "D:\\DESKTOP\\New folder\\ai-workflow-capstone\\models\\sl-hong_kong-0_1.joblib"
+    },
+    {
+      "country": "netherlands",
+      "rmse": 224.66,
+      "mae": 182.02,
+      "path": "D:\\DESKTOP\\New folder\\ai-workflow-capstone\\models\\sl-netherlands-0_1.joblib"
+    },
+    {
+      "country": "norway",
+      "rmse": 572.02,
+      "mae": 360.79,
+      "path": "D:\\DESKTOP\\New folder\\ai-workflow-capstone\\models\\sl-norway-0_1.joblib"
+    },
+    {
+      "country": "portugal",
+      "rmse": 3422.43,
+      "mae": 1986.92,
+      "path": "D:\\DESKTOP\\New folder\\ai-workflow-capstone\\models\\sl-portugal-0_1.joblib"
+    },
+    {
+      "country": "singapore",
+      "rmse": 4253.55,
+      "mae": 2492.61,
+      "path": "D:\\DESKTOP\\New folder\\ai-workflow-capstone\\models\\sl-singapore-0_1.joblib"
+    },
+    {
+      "country": "spain",
+      "rmse": 702.53,
+      "mae": 555.92,
+      "path": "D:\\DESKTOP\\New folder\\ai-workflow-capstone\\models\\sl-spain-0_1.joblib"
+    },
+    {
+      "country": "united_kingdom",
+      "rmse": 38427.26,
+      "mae": 31468.86,
+      "path": "D:\\DESKTOP\\New folder\\ai-workflow-capstone\\models\\sl-united_kingdom-0_1.joblib"
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+.git
+models
+logs
+figures
+reports
+cs-production
+**/__pycache__
+**/*.pyc
+cs-train/ts-data
+solution-guidance

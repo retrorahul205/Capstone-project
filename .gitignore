@@ -1,0 +1,8 @@
+__pycache__/
+*.pyc
+.venv/
+models/
+logs/
+cs-train/ts-data/
+cs-production/ts-data/
+.pytest_cache/

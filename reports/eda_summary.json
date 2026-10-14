@@ -1,0 +1,63 @@
+{
+  "n_invoices_rows": 815011,
+  "n_countries": 43,
+  "date_min": "2017-11-28",
+  "date_max": "2019-07-31",
+  "total_revenue": 3914197.3660000004,
+  "negative_price_rows": 3,
+  "missing_customer_id": 189762,
+  "top_countries": [
+    {
+      "country": "United Kingdom",
+      "revenue": 3521513.505
+    },
+    {
+      "country": "EIRE",
+      "revenue": 107069.21
+    },
+    {
+      "country": "Germany",
+      "revenue": 49271.821
+    },
+    {
+      "country": "France",
+      "revenue": 40565.14
+    },
+    {
+      "country": "Norway",
+      "revenue": 38494.75
+    },
+    {
+      "country": "Spain",
+      "revenue": 16040.99
+    },
+    {
+      "country": "Hong Kong",
+      "revenue": 14452.570000000002
+    },
+    {
+      "country": "Portugal",
+      "revenue": 13528.67
+    },
+    {
+      "country": "Singapore",
+      "revenue": 13175.92
+    },
+    {
+      "country": "Netherlands",
+      "revenue": 12322.8
+    }
+  ],
+  "uk_share": 0.8996770412215335,
+  "feature_target_corr": {
+    "recent_invoices": 0.4320071192502122,
+    "recent_views": 0.39255027900511114,
+    "previous_70": 0.18345207821157683,
+    "previous_7": 0.1686204078800361,
+    "previous_14": 0.15155429980551754,
+    "previous_28": 0.15070226511117849,
+    "previous_year": 0.10029296057590614
+  },
+  "mean_daily_revenue": 6406.215001636661,
+  "days": 611
+}

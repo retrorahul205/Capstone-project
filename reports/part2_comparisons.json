@@ -1,0 +1,56 @@
+{
+  "all": [
+    {
+      "model": "mean_baseline",
+      "cv_rmse": 85236.0845251208,
+      "cv_mae": 63894.09439421356
+    },
+    {
+      "model": "random_forest",
+      "cv_rmse": 102012.27238557565,
+      "cv_mae": 76671.92239870461
+    },
+    {
+      "model": "persist_previous_28",
+      "cv_rmse": 103683.56687157809,
+      "cv_mae": 80503.85183464723
+    },
+    {
+      "model": "gradient_boosting",
+      "cv_rmse": 104714.18694655644,
+      "cv_mae": 78570.67422268448
+    },
+    {
+      "model": "ridge",
+      "cv_rmse": 145909.2438111397,
+      "cv_mae": 122995.02372526145
+    }
+  ],
+  "united_kingdom": [
+    {
+      "model": "mean_baseline",
+      "cv_rmse": 85042.67800652936,
+      "cv_mae": 62080.515665186926
+    },
+    {
+      "model": "persist_previous_28",
+      "cv_rmse": 102345.92834443024,
+      "cv_mae": 79345.07079934339
+    },
+    {
+      "model": "gradient_boosting",
+      "cv_rmse": 124437.53560141008,
+      "cv_mae": 96457.43367789155
+    },
+    {
+      "model": "random_forest",
+      "cv_rmse": 134988.92449710597,
+      "cv_mae": 101564.48586246044
+    },
+    {
+      "model": "ridge",
+      "cv_rmse": 162413.15055108673,
+      "cv_mae": 141079.69658965804
+    }
+  ]
+}
